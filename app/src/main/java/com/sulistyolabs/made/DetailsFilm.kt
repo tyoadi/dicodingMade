@@ -8,13 +8,13 @@ import kotlinx.android.synthetic.main.activity_details_film.*
 
 class DetailsFilm : AppCompatActivity() {
 
-    private lateinit var listItem: FilmModel
+    private lateinit var listItem: MovieModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_film)
 
-        listItem = intent.getParcelableExtra("items")
+        listItem = intent.getParcelableExtra("item")
 
         val toolbar = supportActionBar
         toolbar?.setDisplayHomeAsUpEnabled(true)
