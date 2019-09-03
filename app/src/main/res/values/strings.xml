@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Made submission 1</string>
+
+    <string-array name="film_name">
+        <item>1. Iron Man (2008)</item>
+        <item>2. The Incredible Hulk (2008)</item>
+        <item>3. Iron Man 2 (2010)</item>
+        <item>4. Thor (2011)</item>
+        <item>5. Captain America: The First Avenger (2012)</item>
+        <item>6. The Avengers (2012)</item>
+        <item>7. Iron Man 3 (2013)</item>
+        <item>8. Thor: The Dark World (2013)</item>
+        <item>9. Captain America: The Winter Soldier (2014)</item>
+        <item>10. Guardians of the Galaxy (2014)</item>
+        <item>11. Avengers: Age of Ultron (2015)</item>
+        <item>12. Ant-Man (2015)</item>
+    </string-array>
+
+    <string-array name="film_desc">
+        <item>
+            Tony Stark, seorang miliarder jenius yang diperankan oleh aktor Robert Downey Jr,
+            memiliki perusahaan teknologi terbesar, yaitu Stark Industries.\n
+            Tony dan rekan kerjanya pergi ke Afghanistan untuk melakukan sebuah demonstrasi senjata canggih ciptaan Stark Industries.
+            Ia kemudian diculik oleh sekelompok pemberontak dan memaksanya untuk membuat senjata mematikan.\n
+            Dengan kecerdasannya,
+            ia membuat sebuah baju armor untuk melarikan diri dari tahanan dan kemudian jadi Iron Man.
+        </item>
+        <item>
+            Seorang ilmuwan bernama Bruce Banner hidup dalam pelarian, jauh dari kehidupan normal dan wanita yang dicintainya,
+            Betty Ross. Ia mencari cara untuk menyembuhkan radiasi gamma yang meracuni sel dalam tubuhnya dan melepaskan
+            kekuatan besar dalam dirinya.\n
+            Bruce dikejar oleh musuh besarnya yaitu Jenderal Thunderbolt Ross, ayah Betty Ross,
+            untuk memanfaatkan kekuatannya sebagai senjata militer.\n
+            Di samping itu, musuh baru bernama The Abomination dengan kekuatan destruktif yang melebihi Hulk
+            menjadi ancaman terbaru.
+        </item>
+        <item>
+            Menyambung film Iron Man pertama, kali ini dunia mengetahui Tony Stark adalah identitas
+            Iron Man dengan baju armor-nya yang kuat. Dibawah tekanan pemerintah, Tony menolak menyerahkan
+            baju Iron Man agar informasi dibalik semua itu tidak tersebar di tangan yang salah.\n
+            Bersama dengan Pepper Potts dan James Rhodes, Tony memimpin sebuah persekutuan baru untuk
+            menghadapi kekuatan baru yang kuat yaitu, Vanko.
+        </item>
+        <item>
+            Salah satu film superhero Marvel paling populer yaitu, Thor yang diperankan oleh aktor Chris Hemsworth bercerita tentang seorang anak dari
+            dewa Odin. Thor adalah dewa yang kuat namun, seorang prajurit yang angkuh.\n
+            Ia menyalakan kembali perang kuno di tempat tinggalnya, Asgard karena perbuatannya yang sembrono.
+            Akibat perbuatannya tersebut, ia harus menanggung akibatnya dan Odin mengusirnya ke bumi.
+        </item>
+        <item>
+            Ketika dunia sedang dalam masa perang, Steve Rogers (Chris Evans), mendaftar untuk masuk ke dalam pasukan
+            militer Amerika tetapi, ia selalu di tolak karena postur tubuhnya yang kecil.\n
+            Steve secara sukarela mengikuti sebuah eksperimen yang mengubahnya menjadi prajurit super yang
+            dikenal sebagai Captain America.\n
+            Ia bersama Bucky Barnes (Sebastian Stan) dan Peggy Carter (Hayley Atwell) berperang melawan
+            organisasi HYDRA yang dipimpin oleh Red Skull.
+        </item>
+        <item>
+            Ketika superheroes bersatu melawan kejahatan menciptakan sebuah adegan aksi yang sangat ditunggu-tunggu oleh penggemarnya. Di film, ini para hero ikon Marvel: Iron Man, Incredible Hulk, Thor, Captain America,
+            Black Widow, dan Hawkeye bergabung dalam The Avengers.\n
+            Musuh yang tak terduga muncul dan dapat mengancam keamanan dan keselamatan dunia.\n
+            Hal ini membuat Nick Fury, pemimpin organisasi penjaga kedamaian internasional S.H.I.E.L.D,
+            mengumpulkan para hero untuk menyelamatkan dunia dari ambang bencana.
+        </item>
+        <item>
+            Kembali dengan baju armor Iron Man-nya, Stark, harus melawan musuh yang tidak mengenal batas dan
+            harus diperhadapkan dengan dunia pribadinya yang dihancurkan oleh musuh. Hal ini membuat keberaniannya diuji.\n
+            Stark harus bertahan dengan alat-alatnya dan mengandalkan kecerdikan juga, instingnya untuk dapat
+            melindungi orang-orang terdekatnya.\n
+            Lewat pertarungannya, ia menemukan beberapa jawaban dari pertanyaan yang telah menghantuinya sel
+        </item>
+        <item>
+            Sekuel Thor ini menceritakan aksi Thor yang berjuang menyelamatkan bumi dan semua dunia dari bayangan musuh yang mengincar seluruh alam semesta.
+            Ras kuno yang dipimpin oleh Malekith kembali untuk mengubah alam semesta dalam kegelapan.\n
+            Thor, sang putra Odin memulai perjalanan berbahayanya yang akan menyatukan kembali dirinya dengan Jane Foster (Natalie Portman)
+            dan mengorbankan segalanya untuk menyelamatkan seluruh dunia.
+        </item>
+        <item>
+            Setelah pertarungan besar dengan para Avengers di New York, Steve Rogers tinggal
+            di Washington DC mencoba untuk beradaptasi dengan kehidupan modern.\n
+            Sebuah penyerangan terjadi, membuat sang Captain America dan Black Widow juga rekan baru Falcon,
+            melawan ancaman baru yaitu Winter Soldier.
+        </item>
+        <item>
+            Seorang petualang luar angkasa bernama Peter Quill (Chris Pratt), mendapati dirinya sebagai objek yang
+            diburu oleh Ronan. Ia mencuri sebuah bola misterius yang sangat diidamkan Ronan, penjahat yang
+            mengancam seluruh alam semesta.\n
+            Ketika menyingkir dari Ronan, Quill bertemu dengan Rocket, Groot, Gamora, dan Drax,
+            4 individu berbeda yang sulit bersatu. Ia menemukan kekuatan asli bola misterius tersebut dan
+            ancamannya terhadap alam semesta.\n
+            Quill dan timnya harus melakukan yang terbaik untuk menyelamatkan galaksi.
+        </item>
+        <item>
+            Avengers kembali sukses membawa para superheroes bersatu dalam menghadapi musuh. Kali ini, Iron Man,
+            Captain America, Thor, The Incredible Hulk, Black Widow dan Hawkeye harus kembali bersatu demi keseimbangan planet.
+            Dengan aksi dan petualangan yang epik, para Avengers harus menghentikan kemunculan Ultron yang
+            jahat dengan rencana mengerikannya.
+        </item>
+        <item>
+            Film Marvel yang dibintangi oleh Paul Rudd dan Michael Douglas ini adalah sekuel pertama dari superhero Ant-Man.\n
+            Dengan kemampuan mengecil dan kekuatan yang bertambah, seorang pencuri ulung bernama Scott Lang harus membantu mentornya, Dr. Hank Pym.\n
+            Mereka harus melindungi rahasia dibalik baju Ant-Man dari ancaman-ancaman yang berbahaya dan pencurian yang akan menyelamatkan dunia. \n
+        </item>
+    </string-array>
+
+    <string-array name="film_quotes">
+        <item>“I am Iron Man.” – Tony Stark.</item>
+        <item>“You know, I know a few techniques that could help you manage that anger effectively.”
+            – Dr. Bruce Banner.</item>
+        <item>“I told you. I don’t want to join your super-secret boy band.” – Tony Stark.</item>
+        <item>“Brother, however I have wronged you, whatever I have done that has led you to do this, I am truly sorry.
+            But these people are innocent: taking their lives will gain you nothing. So take mine, and end this.” – Thor.</item>
+        <item>Whatever happens tomorrow you must promise me one thing. That you will stay who you are. Not a perfect soldier, but a good man.
+            ” – Dr. Abraham Erskine.</item>
+        <item>“The Avengers. That’s what we call ourselves; we’re sort of like a team.
+            ‘Earth’s Mightiest Heroes’ type thing.” – Tony Stark.</item>
+        <item>“Things are different now. I have to protect the one thing that I can’t live without. That’s you.
+            ”– Tony Stark.</item>
+        <item>“I gave you my word, that I would return.” – Thor.</item>
+        <item>“People are going to die. I can’t let that happen.” – Steve Rogers.</item>
+        <item>“I have lived most of my life surrounded by my enemies. I would be grateful to die surrounded by my friends.
+            ” – Gamora.</item>
+        <item>“Humans are odd. They think order and chaos are somehow opposites and try to control what won’t be. But there is grace in their failings. I think you missed that.
+            ” – Vision.</item>
+        <item>“Wait I didn’t steal anything! I was returning something I stole!” – Scott Lang.</item>
+    </string-array>
+
+    <string-array name="film_img">
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/1.-Iron-Man-2008.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/2.-The-Incredible-Hulk-2008.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/3.-Iron-Man-2-2010.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/4.-Thor-2011.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/5.-Captain-America-The-First-Avengers-2012.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/6.-The-Avengers-20121.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/7.-Iron-Man-3-2013.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/8.-Thor-The-Dark-World-2013.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/9.-Captain-America-The-Winter-Soldier-2014.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/10.-Guardians-of-the-Galaxy-2014.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/11.-Avengers-Age-of-Ultron-2015.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/12.-Ant-Man-2015.jpg</item>
+    </string-array>
+</resources>
