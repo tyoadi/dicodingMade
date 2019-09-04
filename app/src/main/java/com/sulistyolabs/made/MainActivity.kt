@@ -5,15 +5,14 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
+import android.provider.Settings.ACTION_LOCALE_SETTINGS
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var fragmentAdapter: FragmentAdapter
     var movieFragment = MovieFragment()
     var tvshowFragment = TvShowFragment()
-
-
-    private var items: MutableList<MovieModel> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +37,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when(item?.itemId) {
-            R.id.settings -> {}
+            R.id.settings -> {
+                val mIntent = Intent(ACTION_LOCALE_SETTINGS)
+                startActivity(mIntent)
+            }
         }
         return super.onOptionsItemSelected(item)
     }

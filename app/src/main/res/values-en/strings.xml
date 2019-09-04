@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Made</string>
+    <string name="movie">Movie</string>
+    <string name="tvshow">Tv Show</string>
+
+    <string-array name="film_name">
+        <item>1. Iron Man (2008)</item>
+        <item>2. The Incredible Hulk (2008)</item>
+        <item>3. Iron Man 2 (2010)</item>
+        <item>4. Thor (2011)</item>
+        <item>5. Captain America: The First Avenger (2012)</item>
+        <item>6. The Avengers (2012)</item>
+        <item>7. Iron Man 3 (2013)</item>
+        <item>8. Thor: The Dark World (2013)</item>
+        <item>9. Captain America: The Winter Soldier (2014)</item>
+        <item>10. Guardians of the Galaxy (2014)</item>
+        <item>11. Avengers: Age of Ultron (2015)</item>
+        <item>12. Ant-Man (2015)</item>
+    </string-array>
+
+    <string-array name="film_desc">
+        <item>Tony Stark, a genius billionaire played by actor Robert Downey Jr.,
+            owns the largest technology company, Stark Industries.
+            Tony and his colleagues went to Afghanistan to conduct a demonstration of sophisticated weapons creation
+            Stark Industries.
+            He was later kidnapped by a group of rebels and forced him to make a deadly weapon.
+            With his intelligence,
+            he made a suit of armor to escape from prison and later became Iron Man.
+        </item>
+        <item>
+            A scientist named Bruce Banner lives on the run, far from normal life and women who are
+            he loved,Betty Ross. He looked for ways to cure gamma radiation that poisoned cells in his body and released
+            great strength in him.
+            Bruce was chased by his great enemy General Thunderbolt Ross, Betty Ross\'s father,
+            to use his power as a military weapon.
+            In addition, a new enemy named The Abomination with destructive power that exceeds the Hulk
+            become the latest threat
+        </item>
+        <item>Connecting the first Iron Man movie, this time the world knows Tony Stark is identity
+            Iron Man with his strong armor. Under government pressure, Tony refused to submit
+            Iron Man\'s clothes so that the information behind it is not spread in the wrong hands.
+            Together with Pepper Potts and James Rhodes, Tony led a new alliance for
+            facing a new powerful force, Vanko.
+        </item>
+        <item>One of Marvel\'s most popular superhero films, Thor, played by actor Chris Hemsworth
+            tells the story of a child from
+            the god Odin. Thor is a powerful god but, a proud soldier.
+            He reignited an ancient war in his home, Asgard, because of his reckless conduct.
+            As a result of these actions, he must bear the consequences and Odin drove him to earth.
+        </item>
+        <item>When the world is at war, Steve Rogers (Chris Evans), registers to enter the army
+            the American military but, he was always rejected because of his small posture.
+            Steve volunteered to take part in an experiment that turned him into a super soldier
+            known as Captain America.
+            He with Bucky Barnes (Sebastian Stan) and Peggy Carter (Hayley Atwell) fought against
+            the HYDRA organization led by Red Skull....
+        </item>
+        <item>When superheroes unite against evil creates an action scene that has been eagerly awaited by
+            his fans. In the film, here are the Marvel icon heroes: Iron Man, Incredible Hulk, Thor, Captain America,
+            Black Widow and Hawkeye joined The Avengers.
+            Unexpected enemies appear and can threaten the security and safety of the world. \n
+            This made Nick Fury, leader of the S.H.I.E.L.D international peace guard organization,
+            gathering heroes to save the world from the brink of disaster.
+        </item>
+        <item>
+            Returning in his Iron Man armor, Stark, must fight an enemy who knows no bounds and
+            must be faced with his personal world which is destroyed by the enemy. This made his courage
+            tested.
+            Stark must survive with his tools and rely on his ingenuity too, his instincts to be able to
+            protect the people closest to him.
+            Through his fight, he found several answers to questions that had haunted him
+        </item>
+        <item>This sequel to Thor tells the action of Thor who fought to save the earth and all the world from the shadow of the enemy
+            which targets the entire universe.
+            The ancient race led by Malekith returned to change the universe in darkness.
+            Thor, Odin\'s son begins a dangerous journey that will reunite himself with Jane
+            Foster (Natalie Portman)
+            and sacrifice everything to save the whole world.
+        </item>
+        <item>After a big fight with the Avengers in New York, Steve Rogers stayed
+            in Washington DC trying to adapt to modern life.
+            An attack took place, making Captain America and Black Widow also Falcon\'s new colleagues,
+            against the new threat that is Winter Soldier.
+        </item>
+        <item>A space adventurer named Peter Quill (Chris Pratt), finds himself as an object
+            hunted by Ronan. He stole a mysterious ball that Ronan craves, the villain
+            threaten the entire universe.\n
+            While away from Ronan, Quill meets Rocket, Groot, Gamora, and Drax,
+            4 different individuals who find it difficult to unite. He discovered the original power of the mysterious ball an
+            its threat to the universe.
+            Quill and his team must do their best to save the galaxy.
+        </item>
+        <item>Avengers again successfully brought the superheroes united in the face of enemies. This time, Iron Man,
+            Captain America, Thor, The Incredible Hulk, Black Widow and Hawkeye must re-unite for the sake of balance
+            the planet.
+            With epic action and adventure, the Avengers must stop the emergence of the Ultron
+            evil with his terrible plan.
+        </item>
+        <item>The Marvel movie, starring Paul Rudd and Michael Douglas, is the first installment of the superhero
+            Ant-Man. \n
+            With diminished capabilities and increased strength, an accomplished thief named Scott Lang must
+            help his mentor, Dr. Hank Pym.
+            They must protect the secrets behind Ant-Man\'s clothes from dangerous threats and theft
+            will save the world.
+        </item>
+    </string-array>
+
+    <string-array name="film_quotes">
+        <item>“I am Iron Man.” – Tony Stark.</item>
+        <item>“You know, I know a few techniques that could help you manage that anger effectively.”
+            – Dr. Bruce Banner.
+        </item>
+        <item>“I told you. I don\’t want to join your super-secret boy band.” – Tony Stark.</item>
+        <item>“Brother, however I have wronged you, whatever I have done that has led you to do this, I am truly sorry.
+            But these people are innocent: taking their lives will gain you nothing. So take mine, and end this.” –
+            Thor.
+        </item>
+        <item>Whatever happens tomorrow you must promise me one thing. That you will stay who you are. Not a perfect
+            soldier, but a good man.
+            ” – Dr. Abraham Erskine.
+        </item>
+        <item>“The Avengers. That’s what we call ourselves; we’re sort of like a team.
+            ‘Earth’s Mightiest Heroes’ type thing.” – Tony Stark.
+        </item>
+        <item>“Things are different now. I have to protect the one thing that I can’t live without. That’s you.
+            ”– Tony Stark.
+        </item>
+        <item>“I gave you my word, that I would return.” – Thor.</item>
+        <item>“People are going to die. I can’t let that happen.” – Steve Rogers.</item>
+        <item>“I have lived most of my life surrounded by my enemies. I would be grateful to die surrounded by my
+            friends.
+            ” – Gamora.
+        </item>
+        <item>“Humans are odd. They think order and chaos are somehow opposites and try to control what won’t be. But
+            there is grace in their failings. I think you missed that.
+            ” – Vision.
+        </item>
+        <item>“Wait I didn’t steal anything! I was returning something I stole!” – Scott Lang.</item>
+    </string-array>
+
+    <string-array name="film_img">
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/1.-Iron-Man-2008.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/2.-The-Incredible-Hulk-2008.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/3.-Iron-Man-2-2010.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/4.-Thor-2011.jpg</item>
+        <item>
+            https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/5.-Captain-America-The-First-Avengers-2012.jpg
+        </item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/6.-The-Avengers-20121.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/7.-Iron-Man-3-2013.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/8.-Thor-The-Dark-World-2013.jpg</item>
+        <item>
+            https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/9.-Captain-America-The-Winter-Soldier-2014.jpg
+        </item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/10.-Guardians-of-the-Galaxy-2014.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/11.-Avengers-Age-of-Ultron-2015.jpg</item>
+        <item>https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2019/01/12.-Ant-Man-2015.jpg</item>
+    </string-array>
+
+    <string name="settings">Settings</string>
+</resources>

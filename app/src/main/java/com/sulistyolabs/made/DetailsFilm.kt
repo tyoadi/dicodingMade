@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_details_film.*
+import kotlinx.android.synthetic.main.detail_item_layout.*
 
 class DetailsFilm : AppCompatActivity() {
 
@@ -16,11 +17,11 @@ class DetailsFilm : AppCompatActivity() {
 
         listItem = intent.getParcelableExtra("item")
 
-        val toolbar = supportActionBar
-        toolbar?.setDisplayHomeAsUpEnabled(true)
-        toolbar?.title = "Film Details"
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        tv_film_name_details.text = listItem.name
+        tv_film_name.text = listItem.name
         tv_film_quotes_details.text = listItem.quote
         tv_decription.text = listItem.dec
 
@@ -34,11 +35,8 @@ class DetailsFilm : AppCompatActivity() {
                 onBackPressed()
                 return true
             }
-
             else -> super.onOptionsItemSelected(item)
         }
-
     }
-
 }
 
