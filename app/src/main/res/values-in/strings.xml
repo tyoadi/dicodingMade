@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Made</string>
     <string name="movie">Film</string>
-    <string name="tvshow">Tv Show</string>
+    <string name="tvshow">Acara Tv</string>
 
     <string-array name="film_name">
         <item>1. Iron Man (2008)</item>
@@ -16,6 +16,121 @@
         <item>10. Guardians of the Galaxy (2014)</item>
         <item>11. Avengers: Age of Ultron (2015)</item>
         <item>12. Ant-Man (2015)</item>
+    </string-array>
+
+    <string-array name="tv_show">
+        <item>Arrow</item>
+        <item>Fairy Tails</item>
+        <item>Flash</item>
+        <item>Iron Fist</item>
+        <item>Naruto</item>
+        <item>Dragon Ball</item>
+        <item>Doom Patriot</item>
+        <item>Family Guy</item>
+        <item>God</item>
+        <item>Gotham</item>
+        <item>Grey Anathom</item>
+        <item>Hanna</item>
+    </string-array>
+
+    <integer-array name="img_tv_show">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_dragon_ball</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_hanna</item>
+    </integer-array>
+
+    <string-array name="desc_tv_show">
+        <item>Ketika pertama kali menyentuh layar saya menyukai acara ini. Ini buku jari yang agak telanjang,
+            grginess vigilante benar-benar memecahkan cangkang tertutup permen, yang membungkus begitu banyak pahlawan buku komik.
+            Sayangnya terlepas dari cerita yang kuat dan penokohan yang dewasa bagi saya pertunjukan ini perlahan-lahan mulai menurun,
+            secara bertahap bertukar orisinalitasnya dengan kepuasan utama.
+            Yang benar-benar merusak, dalam pandangan saya, adalah perpindahan karakter dari semacam pahlawan anti menjadi politisi.
+            Seolah-olah ini tidak cukup buruk, seutas benang rapuh dan melelahkan, menceramahi kebenaran politik juga merayap masuk.
+        </item>
+        <item>
+            Lucy adalah seorang gadis berusia 17 tahun, yang ingin menjadi penyihir penuh.
+            Suatu hari ketika mengunjungi Kota Harujion, dia bertemu Natsu, seorang pemuda yang mudah sakit karena segala jenis transportasi.
+            Tapi Natsu bukan sembarang anak biasa, dia adalah anggota dari salah satu serikat penyihir paling terkenal di dunia: Fairy Tail.
+        </item>
+        <item>
+            Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen adalah
+            tersambar petir dan jatuh koma. Beberapa bulan kemudian dia bangun dengan kekuatan
+            kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti tak terlihat
+            malaikat penjaga. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut
+            temukan dia bukan satu-satunya manusia meta yang diciptakan setelah akselerator
+            ledakan dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Mitra Barry
+            dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa
+            teman dekat dan rekan tahu bahwa Barry secara harfiah manusia tercepat,
+            tapi itu tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen The Flash.
+        </item>
+        <item>Musim 2 lebih jauh transformasi Danny, karakter dengan ikan keluar dari air
+            datangnya kisah usia membuat jalan di dunia baru yang keras, berjuang untuk mencari tahu siapa dia.
+            Musim ini, Dann telah berjanji bahwa dengan Matt Murdock pergi, dia akan meningkatkan dan melindungi kotanya.
+            Tapi alur cerita yang menyeramkan mengancam identitasnya dan dia harus menaklukkan penjahatnya
+            untuk melindungi kota dan orang-orang yang dia pegang erat di hatinya.
+        </item>
+        <item>
+            Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto.
+            Ceritanya berkisar pada Uzumaki Naruto yang lebih tua dan sedikit lebih dewasa
+            pencarian untuk menyelamatkan temannya Uchiha Sasuke dari cengkeraman Shinobi seperti ular, Orochimaru.
+            Setelah 2 setengah tahun Naruto akhirnya kembali ke desanya Konoha,
+            dan set tentang menempatkan ambisinya untuk bekerja, meskipun itu tidak akan mudah,
+            karena Dia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi; Akatsuki.
+        </item>
+        <item>
+            Dragon Ball Z adalah serial televisi animasi Jepang yang diproduksi oleh Toei Animation.
+            Dragon Ball Z adalah sekuel anime Dragon Ball dan mengadaptasi 26 volume terakhir
+            dari seri manga Dragon Ball 42 volume asli yang dibuat oleh Akira Toriyama
+            Seri Debut pada tahun 1988-1995 di Weekly Shounen Jump. Dragon Ball Z menggambarkan
+            melanjutkan petualangan Goku dan teman temannya untuk mempertahankan diri dari bermacam - macam Goku
+            penjahat yang berusaha menghancurkan atau menguasai Bumi.
+        </item>
+        <item>
+            Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka manusia super
+            kemampuan tetapi juga meninggalkan mereka menjadi bekas luka dan cacat. Trauma dan tertindas,
+            tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki
+            fenomena paling aneh yang ada dan untuk melindungi Bumi dari apa yang mereka temukan.
+        </item>
+        <item>
+            Serial, bengkok, salah secara politis, dan serial animasi Freakin Sweet menampilkan
+            petualangan keluarga Griffin yang disfungsional. Kikuk Peter dan Lois yang sudah lama menderita
+            punya tiga anak. Stewie (bayi yang cerdas tetapi sadis bertekad membunuh ibunya dan ibunya)
+            mengambil alih dunia), Meg (yang tertua, dan adalah gadis yang paling tidak populer di kota)
+            dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki hasrat untuk film).
+            Anggota terakhir keluarga adalah Brian anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan,
+            dia menjaga Stewie, sementara menghirup Martinis dan memilah-milah masalah hidupnya sendiri.
+        </item>
+        <item>
+            Kisah gelap dan gotik tentang tiga biarawati, masing-masing satu generasi terpisah, hidup di tempat yang terisolasi
+            biara di tepi pantai, dan pengunjung yang tidak disukai yang memasuki kehidupan mereka dan mengubah dunia mereka selamanya.
+        </item>
+        <item>
+            Sebelum ada Batman, ada GOTHAM.
+            Semua orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan,
+            seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui tentang Gordon
+            cerita dan kebangkitannya dari detektif pemula menjadi Komisaris Polisi? Apa yang diperlukan untuk
+            menavigasi berbagai lapisan korupsi yang diam diam memerintah Kota Gotham,
+            tempat bertelur penjahat paling ikonik di dunia? Dan keadaan apa
+            menciptakan mereka  persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin,
+            The Riddler, Two-Face dan The Joker?
+        </item>
+        <item>
+            Ikuti kehidupan pribadi dan profesional sekelompok dokter di Rumah Sakit Gray Sloan Memorial di Seattle.
+        </item>
+        <item>
+            Drama yang menegangkan dan dewasa ini mengikuti perjalanan seorang anak muda yang luar biasa
+            Gadis saat ia menghindari pencarian tanpa henti dari agen CIA off book dan mencoba
+            gali kebenaran di balik siapa dia. Berdasarkan film Joe Wright 2011.
+        </item>
     </string-array>
 
     <string-array name="film_desc">
@@ -169,4 +284,6 @@
     </string-array>
 
     <string name="settings">Settings</string>
+    <string name="quote">Kutipan</string>
+    <string name="description">Deskripsi</string>
 </resources>

@@ -14,8 +14,8 @@ import org.jetbrains.anko.support.v4.startActivity
 
 class TvShowFragment : Fragment() {
 
-    private lateinit var adapter: MovieAdapter
-    private var items: MutableList<MovieModel> = mutableListOf()
+    private lateinit var adapter: TvShowAdapter
+    private var items: MutableList<TvShowModel> = mutableListOf()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -33,16 +33,15 @@ class TvShowFragment : Fragment() {
 
     private fun initData() {
 
-        val name = resources.getStringArray(R.array.film_name)
-        val desc = resources.getStringArray(R.array.film_desc)
-        val quotes = resources.getStringArray(R.array.film_quotes)
-        val img = resources.getStringArray(R.array.film_img)
+        val name = resources.getStringArray(R.array.tv_show)
+        val desc = resources.getStringArray(R.array.desc_tv_show)
+        val img = resources.getIntArray(R.array.img_tv_show)
         items.clear()
         for (i in name.indices) {
-            items.add(MovieModel(name[i],desc[i],quotes[i],img[i]))
+            items.add(TvShowModel(name[i],desc[i],img[i]))
         }
 
-        adapter = MovieAdapter(requireContext(), items) {
+        adapter = TvShowAdapter(requireContext(), items) {
             startActivity<DetailsFilm>("item" to it)
         }
         val layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
