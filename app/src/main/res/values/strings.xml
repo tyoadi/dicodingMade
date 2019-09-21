@@ -2,6 +2,7 @@
     <string name="app_name">Made</string>
     <string name="movie">Movie</string>
     <string name="tvshow">Tv Show</string>
+    <string name="releaseDate">Release Date</string>
 
     <string-array name="film_name">
         <item>1. Iron Man (2008)</item>
@@ -16,6 +17,21 @@
         <item>10. Guardians of the Galaxy (2014)</item>
         <item>11. Avengers: Age of Ultron (2015)</item>
         <item>12. Ant-Man (2015)</item>
+    </string-array>
+
+    <string-array name="rilis_date">
+        <item>April 1, 2019</item>
+        <item>October 12, 2009</item>
+        <item>October 7, 2014</item>
+        <item>March 17, 2017</item>
+        <item>February 15, 2007</item>
+        <item>April 26, 1989</item>
+        <item>February 15, 2019</item>
+        <item>January 31, 1999</item>
+        <item>January 31, 1999</item>
+        <item>September 22, 2014</item>
+        <item>March 27, 2005</item>
+        <item>March 28, 2019</item>
     </string-array>
 
     <string-array name="tv_show">
@@ -33,7 +49,7 @@
         <item>Hanna</item>
     </string-array>
 
-    <integer-array name="img_tv_show">
+    <array name="img_tv_show">
         <item>@drawable/poster_arrow</item>
         <item>@drawable/poster_fairytail</item>
         <item>@drawable/poster_flash</item>
@@ -46,7 +62,7 @@
         <item>@drawable/poster_gotham</item>
         <item>@drawable/poster_grey_anatomy</item>
         <item>@drawable/poster_hanna</item>
-    </integer-array>
+    </array>
 
     <string-array name="desc_tv_show">
         <item>When it first hit the screen I loved this show. Its rather bare knuckle,

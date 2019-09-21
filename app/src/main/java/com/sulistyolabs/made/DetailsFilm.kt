@@ -9,23 +9,46 @@ import kotlinx.android.synthetic.main.detail_item_layout.*
 
 class DetailsFilm : AppCompatActivity() {
 
-    private lateinit var listItem: MovieModel
+    private lateinit var itemMovie: MovieModel
+    private lateinit var itemTvShow: TvShowModel
+
+    companion object {
+        val MOVIE = "movie"
+        val TV_SHOW = "tvshow"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details_film)
 
-        listItem = intent.getParcelableExtra("item")
-
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        tv_film_name.text = listItem.name
-        tv_film_quotes_details.text = listItem.quote
-        tv_decription.text = listItem.dec
+        val keyIntent = intent.hasExtra(MOVIE)
 
-        Glide.with(this).load(listItem.img).into(img_details)
+        if (keyIntent) {
+            itemMovie = intent.getParcelableExtra(MOVIE)
+            tv_desc.text = resources.getString(R.string.quote)
+            tv_film_name.text = itemMovie.name
+            tv_film_quotes_details.text = itemMovie.quote
+            tv_decription.text = itemMovie.dec
+
+            Glide.with(this).load(itemMovie.img).into(img_details)
+
+        } else {
+            itemTvShow = intent.getParcelableExtra(TV_SHOW)
+            tv_desc.text = resources.getString(R.string.releaseDate)
+            tv_film_name.text = itemTvShow.name
+            tv_film_quotes_details.text = itemTvShow.release
+            tv_decription.text = itemTvShow.dec
+
+            Glide.with(this).load(itemTvShow.img).into(img_details)
+        }
+
+
+
+
 
     }
 

@@ -42,7 +42,7 @@ class MovieFragment : Fragment() {
         }
 
         adapter = MovieAdapter(requireContext(), items) {
-            startActivity<DetailsFilm>("item" to it)
+            startActivity<DetailsFilm>("movie" to it)
         }
         val layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         rv_movie?.layoutManager = layoutManager

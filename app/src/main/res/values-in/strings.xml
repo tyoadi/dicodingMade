@@ -2,6 +2,7 @@
     <string name="app_name">Made</string>
     <string name="movie">Film</string>
     <string name="tvshow">Acara Tv</string>
+    <string name="releaseDate">Tanggal Rilis</string>
 
     <string-array name="film_name">
         <item>1. Iron Man (2008)</item>

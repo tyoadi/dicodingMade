@@ -26,12 +26,13 @@ class TvShowAdapter(private val context: Context,
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        fun bindItem(movieItem: TvShowModel, context: Context, listener: (TvShowModel) -> Unit) {
-            Glide.with(context).load(movieItem.img).into(itemView.img_film)
-            itemView.tv_film_name.text = movieItem.name
+        fun bindItem(tvShowItem: TvShowModel, context: Context, listener: (TvShowModel) -> Unit) {
+            Glide.with(context).load(tvShowItem.img).into(itemView.img_film)
+            itemView.tv_film_name.text = tvShowItem.name
+            itemView.tv_film_quotes.text = tvShowItem.release
 
             itemView.setOnClickListener {
-                listener(movieItem)
+                listener(tvShowItem)
             }
         }
     }

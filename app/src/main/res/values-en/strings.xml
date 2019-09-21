@@ -2,6 +2,7 @@
     <string name="app_name">Made</string>
     <string name="movie">Movie</string>
     <string name="tvshow">Tv Show</string>
+    <string name="releaseDate">Release Date</string>
 
     <string-array name="film_name">
         <item>1. Iron Man (2008)</item>

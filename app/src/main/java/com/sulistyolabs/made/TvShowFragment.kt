@@ -34,15 +34,17 @@ class TvShowFragment : Fragment() {
     private fun initData() {
 
         val name = resources.getStringArray(R.array.tv_show)
+        val release = resources.getStringArray(R.array.rilis_date)
         val desc = resources.getStringArray(R.array.desc_tv_show)
-        val img = resources.getIntArray(R.array.img_tv_show)
+        val img = resources.obtainTypedArray(R.array.img_tv_show)
         items.clear()
+
         for (i in name.indices) {
-            items.add(TvShowModel(name[i],desc[i],img[i]))
+            items.add(TvShowModel(name[i],release[i],desc[i],img.getResourceId(i, 0)))
         }
 
         adapter = TvShowAdapter(requireContext(), items) {
-            startActivity<DetailsFilm>("item" to it)
+            startActivity<DetailsFilm>("tvshow" to it)
         }
         val layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         rv_tv_show?.layoutManager = layoutManager
@@ -50,6 +52,4 @@ class TvShowFragment : Fragment() {
         adapter.notifyDataSetChanged()
 
     }
-
-
 }
