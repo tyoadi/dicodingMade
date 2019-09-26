@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-
         fragmentAdapter = FragmentAdapter(supportFragmentManager)
         fragmentAdapter.addFragment(movieFragment, resources.getString(R.string.movie))
         fragmentAdapter.addFragment(tvshowFragment, resources.getString(R.string.tvshow))

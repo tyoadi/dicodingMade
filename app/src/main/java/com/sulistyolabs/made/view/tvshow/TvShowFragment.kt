@@ -52,8 +52,8 @@ class TvShowFragment : Fragment(), TvShowContract.View {
             startActivity<DetailsFilm>("tvshow" to it)
         }
         val layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
-        rv_tv?.layoutManager = layoutManager
-        rv_tv?.adapter = adapter
+        rv_tvshow?.layoutManager = layoutManager
+        rv_tvshow?.adapter = adapter
     }
 
     override fun showListTvShow(data: List<TvShowItem>) {
@@ -63,8 +63,8 @@ class TvShowFragment : Fragment(), TvShowContract.View {
     }
 
     override fun onEmpty() {
-        rv_tv.invisible()
-        container_error.visible()
+        rv_tvshow.invisible()
+        error_tvshow.visible()
     }
 
     override fun showLoading() {
@@ -78,16 +78,16 @@ class TvShowFragment : Fragment(), TvShowContract.View {
     override fun onFailed(message: String) {
         requireContext().toast(message.toString())
         Log.e("error loading", message)
-        rv_tv.invisible()
+        rv_tvshow.invisible()
         progressBar.invisible()
-        container_error.visible()
+        error_tvshow.visible()
     }
 
     override fun onError(message: String) {
         requireContext().toast(message.toString())
         Log.e("error loading", message)
-        rv_tv.invisible()
+        rv_tvshow.invisible()
         progressBar.invisible()
-        container_error.visible()
+        error_tvshow.visible()
     }
 }

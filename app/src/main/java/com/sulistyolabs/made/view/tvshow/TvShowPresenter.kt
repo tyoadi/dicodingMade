@@ -10,6 +10,7 @@ import retrofit2.Response
 class TvShowPresenter(private val mView: TvShowContract.View) : TvShowContract.Presenter {
 
     override fun getDataTvShow(apiKey: String, language: String) {
+
         mView.showLoading()
 
         val config = ApiClient.config()

@@ -3,11 +3,11 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.sulistyolabs.made.view.movie.MovieFragment">
+        tools:context="com.sulistyolabs.made.view.tvshow.TvShowFragment">
 
 
     <android.support.v7.widget.RecyclerView
-            android:id="@+id/rv_tv"
+            android:id="@+id/rv_tvshow"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="visible"
@@ -28,6 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
     <include
+            android:id="@+id/error_tvshow"
             layout="@layout/error_loading"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"

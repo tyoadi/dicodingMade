@@ -68,7 +68,7 @@ class MovieFragment : Fragment(), MovieContract.View {
 
     override fun onEmpty() {
         rv_movie.invisible()
-        container_error.visible()
+        error_movie.visible()
     }
 
     override fun showLoading() {
@@ -84,7 +84,7 @@ class MovieFragment : Fragment(), MovieContract.View {
         Log.e("error loading", message)
         rv_movie.invisible()
         progressBar.invisible()
-        container_error.visible()
+        error_movie.visible()
 
     }
 
@@ -92,8 +92,7 @@ class MovieFragment : Fragment(), MovieContract.View {
         requireContext().toast(message.toString())
         Log.e("error loading", message)
         rv_movie.invisible()
-        progressBar.invisible()
-        container_error.visible()
+        error_movie.visible()
 
     }
 
