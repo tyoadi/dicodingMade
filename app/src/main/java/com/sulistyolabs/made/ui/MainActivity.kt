@@ -1,4 +1,4 @@
-package com.sulistyolabs.made
+package com.sulistyolabs.made.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,10 @@ import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 import android.provider.Settings.ACTION_LOCALE_SETTINGS
 import android.content.Intent
+import com.sulistyolabs.made.R
+import com.sulistyolabs.made.ui.tvshow.TvShowFragment
+import com.sulistyolabs.made.adapter.FragmentAdapter
+import com.sulistyolabs.made.ui.movie.MovieFragment
 
 class MainActivity : AppCompatActivity() {
 

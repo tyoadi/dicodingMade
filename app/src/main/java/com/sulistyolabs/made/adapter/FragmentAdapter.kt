@@ -1,4 +1,4 @@
-package com.sulistyolabs.made
+package com.sulistyolabs.made.adapter
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
