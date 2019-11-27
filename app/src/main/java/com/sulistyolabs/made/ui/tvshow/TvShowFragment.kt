@@ -46,7 +46,7 @@ class TvShowFragment : Fragment() {
                 showLoading(false)
             } else {
                 Log.d("dec:", "Data kosong")
-        }
+            }
         })
     }
 

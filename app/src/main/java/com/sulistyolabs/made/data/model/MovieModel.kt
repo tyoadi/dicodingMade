@@ -6,7 +6,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class MovieModel(
     val page: Int,
-    val result: List<MovieItem>,
+    val results: List<MovieItem>,
     val total_pages: Int,
     val total_results: Int
 ) : Parcelable

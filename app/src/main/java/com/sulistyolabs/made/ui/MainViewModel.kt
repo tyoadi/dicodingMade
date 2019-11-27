@@ -53,7 +53,7 @@ class MainViewModel : ViewModel() {
 
             override fun onResponse(call: Call<MovieModel>, response: Response<MovieModel>) {
                 if (response.isSuccessful) {
-                    val data: List<MovieItem>? = response.body()?.result
+                    val data: List<MovieItem>? = response.body()?.results
                     listMovie.postValue(data)
                 }
             }
